@@ -1,0 +1,28 @@
+footer{
+  background-color: var(--blue900);
+  padding: 24px 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  #last-btn{
+    background-color: #ffffff;
+    padding: 14px 0 12px ;
+    border-radius: 32px;
+  }
+
+  a{
+    font: var(--text-p7);
+    background-image: var(--gradient-purple);
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 16px 32px;
+    border-radius: 28px;
+    width: fit-content;
+    transition: .5s;
+  }
+
+  a:hover{
+    opacity: .5;
+  }
+}

@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body{
+  overflow-x: hidden;
+} */
+
+#page{
+  width: 100%;
+  background-color: var(--text-color);
+}
+
+:root{
+  /* Colors */
+  --blue900: #13183F;
+  --blue600: #666CA3;
+  --pink600: #F74780;
+  --pink300: #FFA7C3;
+  --gray: #83869A;
+  --text-color: #ffffff;
+
+  /* Gradients */
+  --gradient-pink: linear-gradient(rgba(255, 111, 72, 1)0%, rgba(240, 42, 166, 1)100%);
+  --gradient-purple: linear-gradient(#4851ff 0%, #F02AA6 100%);
+
+  /* Typography */
+  --font-family: "Plus Jakarta Sans", sans-serif;
+  --text-p1: 800 56px/120% var(--font-family);
+  --text-p2: 800 40px/120% var(--font-family);
+  --text-p3: 800 32px/120% var(--font-family);
+  --text-p4: 800 24px/120% var(--font-family);
+  --text-p5: 500 18px/150% var(--font-family);
+  --text-p6: 600 16px/150% var(--font-family);
+  --text-p7: 600 18px/150% var(--font-family);
+}
