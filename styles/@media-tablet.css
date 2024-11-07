@@ -1,0 +1,115 @@
+@media screen and (max-width: 768px){
+  body{
+    overflow-x: hidden;
+  }
+
+  /* Header */
+  header{
+    padding: 24px 44px;
+
+    img{
+      width: 79.29px;
+      height: 20px;
+    }
+
+    a{
+      padding: 10.5px 24px;
+    }
+  }
+  
+  /* Hero */
+  #hero-content{
+    margin: 64px 44px;
+  }
+
+  #content{
+    width: 328px;
+    margin: 41.5 24px 41.5px 0;
+    
+    #text{
+      width: 326px;
+
+      h1{
+        font-size: 40px;
+      }
+    }
+
+    a{
+      padding: 10.5px 24px;
+    }
+  }
+
+  #first-ilt{
+    width: 328px;
+    height: 537px;
+    position: absolute;
+    background-image: url(../assets/illustration-tablet.svg);
+    background-repeat: no-repeat;
+    right: 5%; 
+    top: 60%;  
+  }
+
+  #group-05{
+    padding: 16px 20px;
+    bottom: 30%;
+
+    p{
+      font-size: 14px;
+    }
+
+    h1{
+      font-size: 32px;
+    }
+  }
+
+
+  #ilustration{
+    img:first-child{
+      width: 150px;
+      top: 60%;
+      right: 0%;
+    }
+
+
+    img:last-child{
+    width: 0;
+  }
+  }
+  
+  /* Cards */
+  #sec-content{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 32px;
+    column-gap: 24px;
+    padding: 64px 44px 144px;
+  }
+
+  #title-card{
+    font-size: 24px;
+  }
+
+  .cards{
+     h1{
+      font-size: 20px;
+    }
+  }
+
+  /* Footer */
+  footer{
+    padding: 24px 44px;
+
+    img{
+      width: 79.29px;
+      height: 20px;
+    }
+
+    #last-btn{
+      padding: 8px 0 7px;
+    }
+
+    a{
+      padding: 10.5px 24px;
+    }
+  }   
+}

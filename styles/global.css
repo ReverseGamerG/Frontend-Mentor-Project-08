@@ -4,12 +4,13 @@
   box-sizing: border-box;
 }
 
-/* body{
+ body{
   overflow-x: hidden;
-} */
+  width: 100vw;
+} 
 
 #page{
-  width: 100%;
+  width: inherit;
   background-color: var(--text-color);
 }
 
@@ -34,5 +35,5 @@
   --text-p4: 800 24px/120% var(--font-family);
   --text-p5: 500 18px/150% var(--font-family);
   --text-p6: 600 16px/150% var(--font-family);
-  --text-p7: 600 18px/150% var(--font-family);
+  --text-p7: 700 18px/150% var(--font-family);
 }
