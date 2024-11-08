@@ -56,6 +56,7 @@
     font: var(--text-p7);
     color: var(--pink600);
     transition: .5s;
+    width: fit-content;
   }
 
   a:hover{
