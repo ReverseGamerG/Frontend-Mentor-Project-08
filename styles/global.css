@@ -9,6 +9,12 @@
   width: 100vw;
 } 
 
+#hr{
+  background-image: url(../assets/Rectangle.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
 #page{
   width: inherit;
   background-color: var(--text-color);
